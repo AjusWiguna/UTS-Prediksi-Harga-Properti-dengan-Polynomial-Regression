@@ -1,2 +1,6 @@
-# UTS-Prediksi-Harga-Properti-dengan-Polynomial-Regression
-UTS Model Traning Menggunakan Python
+
+# Ujian Tengah Semester - Model Training
+
+## Cara Install Dependencies
+```bash
+pip install -r requirements.txt
