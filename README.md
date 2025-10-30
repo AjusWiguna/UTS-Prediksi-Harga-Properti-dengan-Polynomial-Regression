@@ -17,52 +17,55 @@ Dataset yang digunakan: [dataset_properti.csv"].
 
 ## 📂 Struktur Proyek
 
+```
 real_estate_price_prediction/
 ├── data/
-│ ├── raw/
-│ │ └── dataset_properti.csv
-│ ├── processed/
-│ │ └── property_prices_synthetic.csv
-│ └── predictions/
-│ └── new_samples_predictions.csv
+│   ├── raw/
+│   │   └── dataset_properti.csv
+│   ├── processed/
+│   │   └── property_prices_synthetic.csv
+│   └── predictions/
+│       └── new_samples_predictions.csv
 │
 ├── models/
-│ ├── final_best_model.pkl
-│ ├── best_model.pkl
-│ ├── sample_model_ridge_deg2.pkl
-│ └── scaler.pkl
+│   ├── final_best_model.pkl
+│   ├── best_model.pkl
+│   ├── sample_model_ridge_deg2.pkl
+│   └── scaler.pkl
 │
 ├── notebooks/
-│ └── (file-file notebook analysis)
+│   └── (file-file notebook analysis)
 │
 ├── src/
-│ ├── init.py
-│ ├── data_preprocessing.py
-│ ├── feature_engineering.py
-│ ├── model_training.py
-│ └── utils.py
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   └── utils.py
 │
 ├── results/
-│ ├── visualizations/
-│ │ ├── correlation_matrix.png
-│ │ ├── histograms.png
-│ │ ├── pred_vs_actual.png
-│ │ ├── residuals_plot.png
-│ │ ├── ridge_lasso_alpha_vs_r2.png
-│ │ └── scatter_features_vs_price.png
-│ │
-│ ├── metrics/
-│ │ ├── cv_results_summary.csv
-│ │ ├── model_comparison_metrics.csv
-│ │ └── top_coefficients.csv
-│ │
-│ └── models/
-│ └── scaler_standard.pkl
+│   ├── visualizations/
+│   │   ├── correlation_matrix.png
+│   │   ├── histograms.png
+│   │   ├── pred_vs_actual.png
+│   │   ├── residuals_plot.png
+│   │   ├── ridge_lasso_alpha_vs_r2.png
+│   │   └── scatter_features_vs_price.png
+│   │
+│   ├── metrics/
+│   │   ├── cv_results_summary.csv
+│   │   ├── model_comparison_metrics.csv
+│   │   └── top_coefficients.csv
+│   │
+│   └── models/
+│       └── scaler_standard.pkl
 │
 ├── docs/
-│ └── README.md
+│   └── README.md
 │
-├── requirements.txt
+└── requirements.txt
+```
+
 
 
 ## Cara Menjalankan
